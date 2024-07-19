@@ -278,7 +278,7 @@ _errstr = "Mode is unknown or incompatible with input array shape."
 
 def toimage(
     arr, high=255, low=0, cmin=None, cmax=None, pal=None, mode=None, channel_axis=None
-) -> Image:
+) -> Image.Image:
     """Takes a numpy array and returns a PIL image.
 
     The mode of the PIL image depends on the array shape and the `pal` and
