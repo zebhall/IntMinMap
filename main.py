@@ -15,6 +15,7 @@ from random import randint
 __author__ = "Z Hall"
 __contact__ = "zhall@portaspecs.com"
 __version__ = "v1.0.0"
+__versiondate__ = "2024/07/19"
 
 
 # Create a 1024x1024x3 array of 8 bit unsigned integers
